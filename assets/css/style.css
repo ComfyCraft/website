@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@font-face {
+  font-family: 'FontBold';
+  src: local('FontBold'),
+  url('../fonts/CobblerSans-Bold.woff') format('woff'),
+  url('../fonts/CobblerSans-Bold.woff2') format('woff2');;
+}
+
+@font-face {
+  font-family: 'FontBlack';
+  src: local('FontBlack'),
+  url('../fonts/CobblerSans-Black.woff') format('woff'),
+  url('../fonts/CobblerSans-Black.woff2') format('woff2');;
+}
 
 * {
   padding: 0;
@@ -11,8 +23,10 @@ h2,
 h3,
 h4,
 p,
-a {
-  font-family: 'Syne Mono', monospace;
+a,
+li {
+  font-family: FontBold;
+  font-size: 1.3em;
   color: #eeeeee;
   text-decoration: none;
 }
